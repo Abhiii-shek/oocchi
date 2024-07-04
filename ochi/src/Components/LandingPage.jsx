@@ -16,7 +16,7 @@ const LandingPage = () => {
             
 
         </div>
-            <div className='border-t-2 border-gray-600 px-4 pt-6 flex  flex-col gap-10 md:flex md:flex-row justify-between md:px-4 md:py-2'>
+            <div className='border-t-2 font-["Neue_Montreal"] border-gray-600 px-4 pt-6 flex  flex-col gap-10 md:flex md:flex-row justify-between md:px-4 md:py-2 pb-4'>
                 {["For public and private companies", "From the first pitch to IPO", "Start the project"].map((item,index)=>{
                     return <div className='flex '>
                         <h2 className={`${index===2 && " border-2 border-gray-500 rounded-full  px-2 md:border-2 hover:bg-slate-300 hover:text-zinc-950 hover:text-lg hover:translate-y-2 md:rounded-full md:px-4"}`}>{item}</h2>

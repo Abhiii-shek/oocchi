@@ -1,5 +1,6 @@
 
 import './App.css'
+import About from './Components/About'
 import LandingPage from './Components/LandingPage'
 import Marquee from './Components/Marquee'
 import Navbar from './Components/Navbar'
@@ -8,19 +9,19 @@ function App() {
 
   return (
     <>
-     <div className='h-screen bg-zinc-700'>
-      <div className=''>
+     <div className='h-screen bg-zinc-900'>
+      
 
       <Navbar/> 
-      </div>
-      <div>
+      
 
       <LandingPage/>
-      </div>
-      <div>
+      
+      
 
       <Marquee/>
-      </div>
+      <About/>
+      
       
      </div>
     </>
